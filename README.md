@@ -1,6 +1,10 @@
 # 📅 Course Calendar App
 
-A PHP & JS-based calendar for managing course appointments.
+This project was built following along to this tutorial (https://youtube.com/embed/pHMtbdGoP_g) on FreeCodeCamp to practice PHP, JavaScript, and CSS.
+This is my first time working with JavaScript, CSS, HTML, and PHP and first time using Github to document the work.
+It was interesting and I learned a lot. 
+
+A PHP & JS-based calendar for managing course schedules.
 
 ## Features
 - Add, edit, delete events
