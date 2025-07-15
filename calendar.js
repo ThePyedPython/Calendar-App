@@ -226,3 +226,9 @@ document.getElementById("cancelBtn").onclick = () => {
 renderCalendar(currentDate);
 updateClock(); // Invoke the function updateClock()
 setInterval(updateClock, 1000);
+
+//Attach event listeners for the nav buttons
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("prevMonth").addEventListener("click", () => changeMonth(-1));
+    document.getElementById("nextMonth").addEventListener("click", () => changeMonth(1));
+});

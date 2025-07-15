@@ -35,9 +35,9 @@ include "calendar.php";
 <!-- Calendar Section -->
    <div class="calendar">
      <div class="nav-btn-container">
-        <button class="nav-btn">⏮️</button>
+        <button class="nav-btn" id="prevMonth">⏮️</button>
         <h2 id="monthYear" style="margin: 0"></h2>
-        <button class="nav-btn">⏭️</button> 
+        <button class="nav-btn" id="nextMonth">⏭️</button> 
      </div>
 
      <div class="calendar-grid" id="calendar"></div>
