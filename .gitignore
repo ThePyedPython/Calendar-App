@@ -1,0 +1,19 @@
+# Ignore the actual DB connection file
+connection.php
+
+# Ignore system files (macOS/Windows)
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# Node.js (if you ever use it)
+node_modules/
+
+# IDE/editor junk
+.vscode/
+.idea/
